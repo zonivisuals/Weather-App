@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <p id="title">City or town</p>
+        <input type="text" id="city-input" placeholder="eg: London">
+        <div id="img-box">
+
+            <div class="weather-details">
+                <h3 id="c-degree"></h3>
+                <img src="" id="weather-image">
+            </div>
+            
+            <div class="city-details">
+                <h3 id="county-name"></h3>
+                <p id="region-name"></p>
+            </div>
+            
+        </div>
+        <button id="weather-btn">Apply</button>
+        <p id="credit">powered by WeatherApi ©</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
